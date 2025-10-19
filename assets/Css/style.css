@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+  z-index: 1000;
+}
+.searchbox1{
+    width:400px ;
+    
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#mobileMenu {
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 12px;
+  padding: 10px;
+}
+.myli{
+   &:hover{
+            background-color: inherit;
+              text-decoration: underline;
+        }
+        
+}
+
+.firstbg{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 60vh, rgba(0, 0, 0, 1)),
+ url(../img/hero-image-md-b062c003af01c07962da52c5585a65cc.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+  height:100vh;
+  
+  
+}
+
+.mydiv{
+>img{
+  width: 100px;
+}
+  
+}
+.searchbox2{
+ width:450px;
+  height: 58px;
+  &:focus{
+    outline: 2px solid rgb(23, 87, 189);
+  outline-offset: -5px;
+    box-shadow: none;
+    
+  }
+}
+.mytitle{
+ padding: 120px 0 40px 0;
+
+}
+.myicon{
+  color: #ff6400;
+  
+}
+.myicon2{
+  color:#eb008b;
+}
+.myicon3{
+  color: #06aeaa;
+}
+.parent1{
+ background-color:  rgba(43, 41, 41, 0.781);
+ width: 130px;
+ height: 130px;
+}
+
+.part2{
+  background-color: #f7f5f5;
+  height:970px;
+  >div{
+    >div{
+      >div{
+        
+       height: 440px;
+        >img{
+         &:last-of-type{
+           width: 400px;
+          padding: 30px 0 0 90px;
+         }
+          &:first-of-type{
+           width:300px;
+
+          padding-top: 30px;
+         }
+        }
+        .sp1{
+          background-color: #7cd3f3;
+          
+          
+        }
+        .mybtn{
+          width: 200px;
+          .icondown{
+            font-size: 15px;
+            padding-left: 85px;
+          }
+           .icondown2{
+            font-size: 15px;
+            padding-left: 37px;
+          }
+           &:focus{
+    outline: 2px solid rgb(23, 87, 189);
+  outline-offset: -5px;
+    box-shadow: none;
+    
+  }
+         
+        }
+      >div{
+           >ul{
+            >li{
+             >a{
+               transition: .3s;
+              &:hover{
+                background-color:  rgb(23, 87, 189);
+                color: white;
+              }
+             }
+            }
+          }
+      }
+      }
+    }
+  }
+}
+.part3{
+   background-color:#f7f5f5;
+  height: 280vh;
+   >div{
+    
+   >div{
+   
+    >div{
+      width: 500px;
+      height: 400px;
+       >img{
+      padding:60px 0 10px 90px ;
+    }
+    .budget{
+       padding:23px 0 9px  200px ;
+    }
+    .build{
+      padding:50px 0 0 200px ;
+    }
+    }
+   }
+   }
+}
+.part4{
+  height: 115vh;
+  >div{
+    >div{
+      padding-left: 50px;
+       >div{
+         &:nth-of-type(3){
+          >img{
+          padding-left:130px;
+      }
+        }
+       }
+      
+    }
+  }
+}
+.part5{
+  height:850px;
+  >p{
+    font-size: 13px;
+  }
+  >div{
+   padding-left: 50px;
+   
+  }
+}
+
+.part6{
+  height: 138vh;
+  >div{
+  
+   >div{
+       width: 550px;
+      height: 400px;
+      >h4{
+        padding-top: 110px;
+      }
+     &:first-of-type{
+      background-image: url(../img/sell-and-trade-sm-c6a6e07382b6fd41088f1411a48ba8bf.jpg);
+      background-size: cover;
+      position: relative;
+      >div{
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.616);
+ width:100%;
+      height: 100%;
+     
+      }
+    }
+     &:last-of-type{
+      background-image: url(../img/military-savings-sm-d71c2584c20aa0f2ae6b927aa6e73817.jpg);
+      background-size: cover;
+        position: relative;
+      >div{
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.616);
+ width:100%;
+      height: 100%;
+     
+      }
+    }
+    
+   }
+  }
+}
+.part7{
+  >div{
+    >div{
+      >img{
+        width: 140px;
+        height: 300px;
+      }
+    }
+  }
+}
+.part8{
+  margin-top: 90px;
+  height: 400px;
+}
+footer{
+  height: 175vh;
+}
+@media screen and (min-width:768px) {
+ .firstbg{
+  background-image: url(../img/hero-image-md-b062c003af01c07962da52c5585a65cc.jpg);
+ background-size: cover;
+ background-position: left;
+ background-repeat: no-repeat;
+ height: 90vh;  
+}
+.myimg{
+  margin-left: 100px;
+  
+}
+}
+
+@media screen and (min-width:992px) {
+ .firstbg{
+  background-image: url(../img/hero-image-xl-580db0613d1a59b9dcf5422e8fd07e44.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat; 
+  
+}
+.sp1{
+  width: 50px;
+}
+footer{
+  height: 500px;
+}
+.part8{
+  height: 790px;
+}
+.part2{
+  height:630px;
+}
+.part3{
+  height: 900px;
+  >div{
+    >div{
+      padding-left:50px;
+    }
+  }
+}
+.part4{
+  height: 490px;
+   >div{
+    >div{
+      padding-left: 260px;
+       >div{
+         &:nth-of-type(3){
+          >img{
+        
+          padding-left:20px;
+       
+  
+      }
+        }
+       }
+      
+    }
+  }
+}
+.part5{
+  height: 680px;
+  >div{
+   padding-left: 200px;
+  }
+}
+.part6{
+  height: 500px;
+}
+}
+@media screen and (min-width:1400px) {
+
+.part8{
+  height:910px;
+}
+.part3{
+  >div{
+    >div{
+      padding-left: 130px;
+    }
+  }
+}
+   
+}
+@media screen and (min-width:2100px) {
+ .firstbg{
+  background-image: url(../img/hero-image-xl-580db0613d1a59b9dcf5422e8fd07e44.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat; 
+  height: 40vh;
+ 
+}
+.part6{
+  >div{
+     margin-left:80px;
+  }
+}
+.part8{
+  height: 890px;
+}
+   
+}
