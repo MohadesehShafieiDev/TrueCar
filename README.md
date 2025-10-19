@@ -2,7 +2,7 @@
 
 <ul>
   <li>
-    <a href=" https://mohadesehshafieidev.github.io/TrueCar/">Online Demo<a/>
+    <a href="https://mohadesehshafieidev.github.io/TrueCar/">Online Demo<a/>
   </li>
       <li>Developed by Mohadeseh Shafiei</li>
       <li> Technologies Used : HTNL5 , CSS3 , Bootstrap</li>
